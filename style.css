@@ -11,21 +11,14 @@
     -moz-transition:all 0.2s ease;
 }
 
-@font-face{
-    src:url(fonts/ProximaNova-Light.otf);
-    font-family:ProximaNova-Light;
-}
-
-@font-face{
-    src:url(fonts/ProximaNova-Semibold.otf);
-    font-family:ProximaNova-Semibold;
-}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap');
 
 body{
     background: #f5f5f5;
     color: #777777;
     font-size: 16px;
-    font-family:ProximaNova-Light;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
     font-smoothing: antialiased;
     -moz-font-smoothing: antialiased;
     -webkit-font-smoothing: antialiased;
@@ -38,7 +31,8 @@ a{
 }
 
 .bold{
-    font-family:ProximaNova-Semibold;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
 }
 
 .section{
@@ -342,7 +336,7 @@ a{
     padding: 10px 14px;
     margin-bottom: 10px;
     width: 70%;
-    font-family:ProximaNova-Light;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .contact-form input:hover{
@@ -365,7 +359,7 @@ a{
     width: 70%;
     height: 125px;
     resize: none;
-    font-family:ProximaNova-Light;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .contact-form textarea:hover{
@@ -385,7 +379,7 @@ a{
     padding: 8px 16px;
     cursor: pointer;
     font-size: 14px;
-    font-family:ProximaNova-Light;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .contact-form button:hover{
@@ -461,7 +455,7 @@ a{
     padding: 6px 20px;
     font-size: 14px;
     color: #777777;
-    font-family:ProximaNova-Light;
+    font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
     text-align: center;
     border: solid 1px #CCCCCC;
